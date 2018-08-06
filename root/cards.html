@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type='text/css' href='/cards.css'>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js"></script>
+    <script src="/card_mappings.js"></script>
+    <script src="/meanings.js"></script>
+    <script src="/groupings.js"></script>
+    <script src="/cards.js"></script>
+    <script id='player-template' type='text/template'>
+      <div class='player'>
+        <span class='input-area'><input class='name'></span>
+        <span class='input-area'><select class='speaks'></select></span>
+        <span class='input-area'><select class='learning'></select></span>
+        <span class='input-area'>
+          <span title='Show Pronunciation'><input type='checkbox' class='pronunciation' checked></span>
+        </span>
+      </div>
+    </script>
+  </head>
+  <body>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-md-12 game-setup'>
+          <div id='headers'>
+            <span>Name</span>
+            <span>Speaks</span>
+            <span>Learning</span>
+            <span>Options</span>
+          </div>
+          <div id='players'></div>
+          <span title='Include Colors'><input type='checkbox' data-grouping='colors' checked></span>
+          <span title='Include Numbers'><input type='checkbox' data-grouping='numbers'></span>
+          <span title='Include Animals'><input type='checkbox' data-grouping='animals'></span>
+          <span title='Make Competitive'><input type='checkbox' id='timetracking'></span>
+          <input type='text' placeholder='Rounds' id='rounds' value=2>
+          <button id='add-player'>Add Player</button>
+          <button id='start-game'>Start Game</button>
+        </div>
+      </div>
+      <div class='row player-view-row'>
+        <div class='col-md-10 player-view'>
+          <div class='center'>
+            <div id='whose-turn'></div>
+            <div id='display'/></div>
+            <div id='debug-input'>
+              <button id='debug-correct'>Correct</button>
+              <button id='debug-incorrect'>Incorrect</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

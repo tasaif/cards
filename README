@@ -1,0 +1,15 @@
+Game is played with RFID smart cards and reader
+  e.g.
+    UHPPOTE Contactless 125kHz EM4100 RFID Proximity Smart Entry Access Card ( Thickness 0.8mm Pack of 50 )
+    ID Card Reader USB 125K HZ EM4100 TK4100 Plug and Play (works on Windows not on Mac)
+
+Instructions for setup:
+  1) Install rvm
+  2) Use rvm to install ruby
+  3) `gem install bundle`
+  4) `bundle install`
+  5) Map each card to a meaning in 'root/meanings.js' and label it with a picture (I used tape to be able to reuse the cards in the future)
+  7) Start the web server `./main.rb`
+  8) Visit the page in a browser on port 4567
+
+multiplayer, competitive (or not), each person chooses a different language (or not)
