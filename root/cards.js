@@ -36,6 +36,11 @@ $(function(){
     $(".center")
       .html("")
       .append($end_game_message);
+    var sound = $("#correct").get(0);
+    sound.load();
+    sound = $("#gameover").get(0);
+    sound.load();
+    sound.play();
   }
   function start_game(){
     window.game_started = true;
@@ -101,6 +106,9 @@ $(function(){
     }
     switch(correctness){
       case "correct":
+        var sound = $("#correct").get(0);
+        sound.load();
+        sound.play();
         track_time($player);
         window.state["whose-turn"] += 1;
         if (window.state["whose-turn"] >= $(".player").length){

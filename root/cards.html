@@ -29,6 +29,14 @@
             <span>Speaks</span>
             <span>Learning</span>
             <span>Options</span>
+            <audio id='correct' hidden>
+                <source src="/131660__bertrof__game-sound-correct.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
+            <audio id='gameover' hidden>
+                <source src="/150879__nenadsimic__jazzy-chords.wav" type="audio/wav">
+                Your browser does not support the audio element.
+            </audio>
           </div>
           <div id='players'></div>
           <span title='Include Colors'><input type='checkbox' data-grouping='colors' checked></span>
@@ -45,7 +53,7 @@
           <div class='center'>
             <div id='whose-turn'></div>
             <div id='display'/></div>
-            <div id='debug-input'>
+            <div id='debug-input' hidden>
               <button id='debug-correct'>Correct</button>
               <button id='debug-incorrect'>Incorrect</button>
             </div>
