@@ -1,4 +1,31 @@
 window.card_mappings = {
+  "10063560": {
+    "meaning": "shoes"
+  },
+  "03558115": {
+    "meaning": "skirt"
+  },
+  "03949247": {
+    "meaning": "socks"
+  },
+  "03006061": {
+    "meaning": "sweater"
+  },
+  "04151296": {
+    "meaning": "shirt"
+  },
+  "03664495": {
+    "meaning": "pants"
+  },
+  "10315426": {
+    "meaning": "shorts"
+  },
+  "10339681": {
+    "meaning": "jacket"
+  },
+  "10340421": {
+    "meaning": "dress"
+  },
   "04121842": {
     "meaning": "cow"
   },

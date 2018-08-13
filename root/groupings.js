@@ -20,5 +20,16 @@ meaning_groups = {
     "deer",
     "rabbit",
     "pig"
+  ],
+  "clothes": [
+    "shirt",
+    "sweater",
+    "jacket",
+    "pants",
+    "socks",
+    "shorts",
+    "shoes",
+    "skirt",
+    "dress"
   ]
 };

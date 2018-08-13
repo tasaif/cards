@@ -1,4 +1,103 @@
 window.meanings = {
+  "shirt": {
+    "arabic": "شميز",
+    "english": "shirt",
+    "japanese": "シャツ",
+    "spanish": "camisa",
+    "chinese": "衬衫",
+    "arabic-english": "شرت",
+    "english-arabic": "shameez",
+    "english-japanese": "shatsu",
+    "english-chinese": "chènshān"
+  },
+  "sweater": {
+    "arabic": "سترة",
+    "english": "sweater",
+    "japanese": "セーター",
+    "spanish": "suéter",
+    "chinese": "毛线衣",
+    "arabic-english": "سوهتر",
+    "english-arabic": "satr",
+    "english-japanese": "sētā",
+    "english-chinese": "máoxiàn yī"
+  },
+  "jacket": {
+    "arabic": "معطف",
+    "english": "jacket",
+    "japanese": "ジャケット",
+    "spanish": "chaqueta",
+    "chinese": "夹克",
+    "arabic-english": "جاكت",
+    "english-arabic": "maetif",
+    "english-japanese": "",
+    "english-chinese": "Jiákè"
+  },
+  "pants": {
+    "arabic": "سروال",
+    "english": "pants",
+    "japanese": "ズボン",
+    "spanish": "pantalones",
+    "chinese": "裤子",
+    "arabic-english": "پانتس",
+    "english-arabic": "sirwal",
+    "english-japanese": "Zubon",
+    "english-chinese": "Kùzi"
+  },
+  "socks": {
+    "arabic": "شربات",
+    "english": "socks",
+    "japanese": "靴下",
+    "spanish": "calcetines",
+    "chinese": "袜子",
+    "arabic-english": "سَكس",
+    "english-arabic": "sharabat",
+    "english-japanese": "Kutsushita",
+    "english-chinese": "Wàzi"
+  },
+  "shorts": {
+    "arabic": "سروال قصير",
+    "english": "shorts",
+    "japanese": "コート",
+    "spanish": "Abrigos",
+    "chinese": "短裤",
+    "arabic-english": "شرتس",
+    "english-arabic": "sirwal qaseer",
+    "english-japanese": "Kōto",
+    "english-chinese": "Duǎnkù"
+  },
+  "shoes": {
+    "arabic": "أحذي",
+    "english": "shoes",
+    "japanese": "靴",
+    "spanish": "zapatos",
+    "chinese": "鞋",
+    "arabic-english": "شوز",
+    "english-arabic": "ahthee",
+    "english-japanese": "Kutsu",
+    "english-chinese": "Xié"
+  },
+  "skirt": {
+    "arabic": "تنورة",
+    "english": "skirt",
+    "japanese": "スカート",
+    "spanish": "falda",
+    "chinese": "短裙",
+    "arabic-english": "سكرت",
+    "english-arabic": "tnoora",
+    "english-japanese": "",
+    "english-chinese": "Duǎn qún"
+  },
+  "dress": {
+    "arabic": "فستان",
+    "english": "dress",
+    "japanese": "ドレス",
+    "spanish": "vestir",
+    "chinese": "连衣裙",
+    "arabic-english": "درس",
+    "english-arabic": "fistan",
+    "english-japanese": "",
+    "english-chinese": "Liányīqún"
+  },
   "chicken": {
     "arabic": "دجاج",
     "english": "chicken",
@@ -181,7 +280,7 @@ window.meanings = {
     "spanish": "7",
     "english-arabic": "sab3ah",
     "english-chinese": "Qī",
-    "english-japanese": "shichi",
+    "english-japanese": "shichi / nana",
     "arabic-english": "سڤن"
   },
   "8": {
