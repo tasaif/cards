@@ -3,6 +3,7 @@ require 'sinatra'
 require 'pry'
 
 set :bind, '0.0.0.0'
+set :port, 8081
 
 get '/*' do
   path = Pathname.new("#{Dir.pwd}/root/#{params['splat'].first}")
@@ -13,7 +14,7 @@ get '/*' do
     content_type 'text/css'
   end
   if params["splat"].join.empty?
-    redirect "/cards.html"
+    redirect "/index.html"
   else
     File.open(path.to_s).read
   end
